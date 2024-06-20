@@ -18,5 +18,7 @@ public class Main{
       System.out.println("Intial");
       System.out.println("This is jenkins first project"+numbers+"\n"+unSortToSortAllList+"\n"+unSortToSortAllList1);
       System.out.println("sortedList: "+sortedList);
+      Student student=new Student();
+      student.sayHello();
     }
 }
