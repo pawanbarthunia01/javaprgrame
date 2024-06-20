@@ -15,7 +15,7 @@ public class Main{
       List<String> unSortToSortAllList=unsortedNumber.stream().sorted(Comparator.naturalOrder()).collect(Collectors.toList());
       List<String> unSortToSortAllList1=unsortedNumber.stream().sorted((s1,s2)->s1.compareTo(s2)).collect(Collectors.toList());
       
-      
+      System.out.println("Intial");
       System.out.println("This is jenkins first project"+numbers+"\n"+unSortToSortAllList+"\n"+unSortToSortAllList1);
     }
 }
